@@ -1,17 +1,73 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Local configuration file (sdk path, etc)
 local.properties
 key.properties
+
+# Log files
+*.log
+
+# Compiled source files
+*.jar
+*.war
+*.ear
+
+# Lint/Inspection results
+lint/intermediates/
+lint/generated/
+
+# Android Studio captures
+captures/
+
+# IntelliJ IDEA and Android Studio specific files
+.idea/
+*.iws
+*.ipr
+*.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+
+# Keystore files
+*.jks
+*.keystore
+
+# Kotlin specific files
+*.kotlin_module
+
+# Gradle specific files for Kotlin DSL
+*.gradle.kts
+.gradle/
+build/
+
+# Maven/Gradle
+maven-repository/
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Visual Studio
+.vscode/
+
+# Built application files
+*.apk
+*.ap_
+
+# Files for the Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+
+# Android's editor (project specific)
+.externalNativeBuild/
+.cxx/
 
