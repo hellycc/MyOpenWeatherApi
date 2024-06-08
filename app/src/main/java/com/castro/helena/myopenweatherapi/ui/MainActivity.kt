@@ -1,4 +1,4 @@
-package com.castro.helena.myopenweatherapi
+package com.castro.helena.myopenweatherapi.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
