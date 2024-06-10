@@ -1,9 +1,8 @@
-package com.castro.helena.myopenweatherapi.data
+package com.castro.helena.myopenweatherapi.data.remote.datasource
 
 import com.castro.helena.myopenweatherapi.data.network.ApiConfig
 import com.castro.helena.myopenweatherapi.data.network.NetworkResult
 import com.castro.helena.myopenweatherapi.data.network.safeApiCall
-import com.castro.helena.myopenweatherapi.data.remote.RemoteDataSource
 import com.castro.helena.myopenweatherapi.data.remote.response.WeatherDataResponse
 import io.ktor.client.HttpClient
 import io.ktor.client.call.body

@@ -1,7 +1,7 @@
 package com.castro.helena.myopenweatherapi.data.di
 
-import com.castro.helena.myopenweatherapi.data.RemoteDataSourceImpl
-import com.castro.helena.myopenweatherapi.data.remote.RemoteDataSource
+import com.castro.helena.myopenweatherapi.data.remote.datasource.RemoteDataSourceImpl
+import com.castro.helena.myopenweatherapi.data.remote.datasource.RemoteDataSource
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn

@@ -1,4 +1,4 @@
-package com.castro.helena.myopenweatherapi.data.remote.di
+package com.castro.helena.myopenweatherapi.data.di
 
 import com.castro.helena.myopenweatherapi.BuildConfig
 import com.castro.helena.myopenweatherapi.data.network.ApiConfig
@@ -29,7 +29,7 @@ import javax.inject.Singleton
 
 @Module
 @InstallIn(SingletonComponent::class)
-object RemoteModule {
+object RemoteApiModule {
 
     @OptIn(ExperimentalSerializationApi::class)
     @Provides
