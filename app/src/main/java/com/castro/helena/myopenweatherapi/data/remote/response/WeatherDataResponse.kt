@@ -3,9 +3,6 @@ package com.castro.helena.myopenweatherapi.data.remote.response
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
-// https://proandroiddev.com/app-architecture-data-layer-8d681e8f8a6d
-// https://proandroiddev.com/app-architecture-how-to-map-data-between-layers-df0179c52f04
-
 @Serializable
 data class WeatherDataResponse(
     val coord: Coord,

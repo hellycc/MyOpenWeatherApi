@@ -1,4 +1,4 @@
-package com.castro.helena.myopenweatherapi.data.remote
+package com.castro.helena.myopenweatherapi.data.remote.datasource
 
 import com.castro.helena.myopenweatherapi.data.network.NetworkResult
 import com.castro.helena.myopenweatherapi.data.remote.response.WeatherDataResponse
