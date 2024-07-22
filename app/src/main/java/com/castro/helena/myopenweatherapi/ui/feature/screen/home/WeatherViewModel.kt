@@ -27,6 +27,7 @@ class WeatherViewModel @Inject constructor(private val useCase: GetWeatherUseCas
             }
 
             is WeatherEvent.Navigate -> {}
+            is WeatherEvent.Unknown -> {}
             else -> {}
         }
     }
